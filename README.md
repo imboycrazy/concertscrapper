@@ -1,48 +1,33 @@
 # concertscrapper
-A Python-based command-line tool to discover upcoming concerts using the Ticketmaster Discovery API.
-
----
-
-## Prerequisites
+A command-line utility for Python that uses the Ticketmaster Discovery API to find upcoming shows.
+--- ## Requirements
 
 * Python 3.x
-* `requests` library
+* The library "requests"
 
-To install the required library, run:
-```bash
-pip install requests
-```
+Run the following to install the necessary library:
+```bash pip install requests```
 
 ---
 
-## Installation & Setup
+## Setup & Installation
 
-1. **Clone the repository** to your local machine.
-2. **Obtain an API Key** from the [Ticketmaster Developer Portal](https://developer.ticketmaster.com/).
-3. **Configure the script**: Open `concerts.py` and replace `"your_api"` with your actual Ticketmaster API key.
-
----
-
-## Usage
-
-Run the script from your terminal:
-
-```bash
-python concerts.py
-```
-
-1. Enter the **City** when prompted (e.g., London).
-2. Enter the **Genre** when prompted (e.g., Rock).
-3. The script will display a list of unique upcoming events including dates and venues.
+1. Make a local copy of the repository.
+2. Visit the [Ticketmaster Developer Portal](https://developer.ticketmaster.com/) to obtain an API key.
+3. To configure the script, open `concerts.py` and use your real Ticketmaster API key in place of "-your_api".
 
 ---
 
-## Technical Details
+## Utilization
 
-* **Duplicate Prevention**: The script filters the results to ensure each artist/event name is only displayed once per search.
-* **Data Source**: Live data fetched via Ticketmaster Discovery API v2.
+Use your terminal to run the script:
+```bash concerts.py```
+
+1. When prompted, enter the **City** (London, for example).
+2. When prompted, enter the **Genre** (e.g., Rock).
+3. A list of special upcoming events, along with dates and locations, will be shown by the script.
 
 ---
 
-## License
-This project is open-source and available under the MIT License.
+
+
