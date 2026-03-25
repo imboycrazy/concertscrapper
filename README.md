@@ -1,6 +1,6 @@
 # concertscrapper
 A command-line utility for Python that uses the Ticketmaster Discovery API to find upcoming shows.
---- ## Requirements
+## Requirements
 
 * Python 3.x
 * The library "requests"
