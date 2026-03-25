@@ -5,7 +5,7 @@ You need:
 * Python 3.x
 * The library "requests"
 
-Run the following to install the necessary library:
+You can grab the library with:
 ```pip install requests```
 
 ---
@@ -14,18 +14,20 @@ Run the following to install the necessary library:
 
 1. Make a local copy of the repository.
 2. Visit the [Ticketmaster Developer Portal](https://developer.ticketmaster.com/) to obtain an API key.
-3. To configure the script, open `concerts.py` and use your real Ticketmaster API key in place of `your_api`.
+3. To configure the script, open `concerts.py` and use your real Ticketmaster API key in place of `API_KEY`.
 
 ---
 
 ## How to use it
 
 Use your terminal to run the script:
-```bash concerts.py```
+```python concerts.py```
 
-1. When prompted, enter the **City** (London, for example).
-2. When prompted, enter the **Genre** (e.g., Rock).
-3. A list of special upcoming events, along with dates and locations, will be shown by the script.
+## The script will ask you for:
+1. **City** (e.g., London, Berlin, New York)
+2. **Genre** (e.g., Rock, Metal, Pop)
+
+It’ll then list out unique upcoming events, dates, and venues. I added a small filter so you won't see the same show twice if they have multiple ticket types.
 
 ---
 
