@@ -6,7 +6,7 @@ A command-line utility for Python that uses the Ticketmaster Discovery API to fi
 * The library "requests"
 
 Run the following to install the necessary library:
-```bash pip install requests```
+```pip install requests```
 
 ---
 
@@ -14,7 +14,7 @@ Run the following to install the necessary library:
 
 1. Make a local copy of the repository.
 2. Visit the [Ticketmaster Developer Portal](https://developer.ticketmaster.com/) to obtain an API key.
-3. To configure the script, open `concerts.py` and use your real Ticketmaster API key in place of "-your_api".
+3. To configure the script, open `concerts.py` and use your real Ticketmaster API key in place of `your_api`.
 
 ---
 
